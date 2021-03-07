@@ -10,7 +10,7 @@ public class MyConfiguration {
     @Bean
     public CommandLineRunner executar() {
         return args -> {
-            System.out.println("Running Production Configuration");
+            System.out.println("Running Development Configuration");
         };
     }
 }
